@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        .flex-container {
+            min-width: 1180px;
+            max-width: 100%;
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+        .flexslider{
+            position: relative;
+            zoom: 1;
+        }
+
+        .slides{
+
+        }
+    </style>
+    <link rel="stylesheet" href="css/common.css"/>
+    <link rel="stylesheet" href="js/flexslider/flexslider.css"/>
+</head>
+<body>
+<div class="flex-container">
+    <div class="flexslider">
+        <ul class="slides">
+            <li class="" style="width: 100%; float: left; margin-right: -100%; position: relative; display: none;"><a
+                    href="design/?img" target="_blank"><img
+                    src="image/banner.jpg"></a></li>
+            <li style="width: 100%; float: left; margin-right: -100%; position: relative; display: none;" class=""><a
+                    href="book/?img" target="_blank"><img src="image/banner_1.jpg"
+                                                                                    alt="WKUN.COM 启用全新LOGO"></a></li>
+        </ul>
+    </div>
+</div>
+</body>
+<script src="js/jquery.min.js"></script>
+<script src="js/flexslider/jquery.flexslider.js"></script>
+<script>
+    $(".flexslider").flexslider();
+</script>
+</html>
